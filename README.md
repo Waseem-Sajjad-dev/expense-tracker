@@ -1,92 +1,52 @@
 # Expense Tracker
 
-[![React](https://img.shields.io/badge/React-17.0.2-blue?logo=react&logoColor=white)](https://reactjs.org/) 
-[![Vite](https://img.shields.io/badge/Vite-4.4.9-green?logo=vite)](https://vitejs.dev/) 
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.3.3-blue?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) 
-[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
+[![React](https://img.shields.io/badge/React-17.0.2-blue?logo=react&logoColor=white)](https://reactjs.org/) [![Vite](https://img.shields.io/badge/Vite-4.4.9-green?logo=vite)](https://vitejs.dev/) [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.3.3-blue?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 **Live Demo:** [https://waseem-sajjad-dev.github.io/expense-tracker/](https://waseem-sajjad-dev.github.io/expense-tracker/)
 
----
+Expense Tracker is a responsive web application built with **React**, **Vite**, **Tailwind CSS**, and **Recharts**. Users can add, categorize, and visualize their expenses. Data is persisted using **localStorage**, so expenses remain after refreshing the browser. Users can also delete items and view a summary chart for quick insights.
 
-## Overview
+**Features:** Add, view, and delete expenses; categorize expenses (Food, Rent, Transport, Entertainment, Other); color-coded badges for categories; bar chart showing total expenses per category; responsive design for mobile and desktop; localStorage persistence; Tailwind CSS styling with gradients and hover effects.
 
-A responsive **Expense Tracker** built with **React**, **Vite**, **Tailwind CSS**, and **Recharts**.  
-Users can add, categorize, and visualize their expenses. Data is persisted using **localStorage**.
+**Technologies Used:** React (frontend framework), Vite (fast development & build tool), Tailwind CSS (utility-first styling), Recharts (charts and data visualization), JavaScript (ES6 for logic & state management).
 
----
+**Screenshots:**  
+![Expense Tracker Screenshot](https://waseem-sajjad-dev.github.io/expense-tracker/)
 
-## Features
-
-- Add, view, and delete expenses  
-- Categorize expenses: Food, Rent, Transport, Entertainment, Other  
-- Color-coded badges for categories  
-- Bar chart showing total expenses per category  
-- Responsive design for mobile & desktop  
-- LocalStorage persistence  
-- Tailwind CSS gradients and hover effects  
-
----
-
-## Technologies
-
-- **React** – Frontend framework  
-- **Vite** – Fast development and build tool  
-- **Tailwind CSS** – Utility-first styling  
-- **Recharts** – Charts and data visualization  
-- **JavaScript (ES6)** – Logic & state management  
-
----
-
-
-
-## Installation
-
+**Installation & Local Development:**  
+1. Clone the repository:  
 ```bash
 git clone https://github.com/Waseem-Sajjad-dev/expense-tracker.git
 cd expense-tracker
+Install dependencies:
+
+bash
+Copy code
 npm install
+Run the development server:
+
+bash
+Copy code
 npm run dev
+Open your browser at the URL provided by Vite (e.g., http://localhost:5173)
 
-Open your browser at the URL shown (e.g., http://localhost:5173)
-
----
-
-##Deployment (GitHub Pages)
+Deployment (GitHub Pages):
 
 Build the app:
 
+bash
+Copy code
 npm run build
+Upload the contents of the dist/ folder to your GitHub repository manually via the GitHub web interface.
 
+Enable GitHub Pages in Settings → Pages → Branch: main / Root.
 
-Upload the contents of the dist/ folder to your GitHub repository.
+Access your live app at: https://<your-username>.github.io/expense-tracker/
 
-Enable GitHub Pages from Settings → Pages → Branch: main / Root.
+Usage: Enter the expense title, amount, and select a category. Click Add Expense to add it to the list. View the summary chart for spending per category. Use the Delete button to remove any expense.
 
-Access your live app at:
-https://<your-username>.github.io/expense-tracker/
+Future Enhancements: Monthly/weekly spending reports, user authentication and multiple profiles, dark mode toggle, export data (CSV/PDF), notifications for budget limits.
 
+License: MIT License © 2025 Waseem Sajjad
 
-##Future Enhancements
-
-Monthly/weekly spending reports
-
-User authentication and multiple profiles
-
-Dark mode toggle
-
-Export data (CSV/PDF)
-
-Notifications for budget limits
-
-License
-
-MIT License © 2025 Waseem Sajjad
-
-Author
-
-Waseem Sajjad
-
-GitHub: Waseem-Sajjad-dev
-
-
+Author: Waseem Sajjad — GitHub: Waseem-Sajjad-dev — LinkedIn: [Your LinkedIn URL]
