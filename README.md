@@ -50,6 +50,8 @@ npm run dev
 
 Open your browser at the URL shown (e.g., http://localhost:5173)
 
+---
+
 ##Deployment (GitHub Pages)
 
 Build the app:
@@ -87,4 +89,4 @@ Waseem Sajjad
 
 GitHub: Waseem-Sajjad-dev
 
-LinkedIn: [Your LinkedIn URL]
+
